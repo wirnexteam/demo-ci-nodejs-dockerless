@@ -18,8 +18,8 @@ before_script:
 
 install:
   - apt update
-  - apt install nodejs
-  - apt install npm
+  - apt -y install nodejs
+  - apt -y install npm
   - nodejs -v
 
 script:
